@@ -46,7 +46,6 @@ public class Teste {
 
         System.out.println("Lista após adições: " + lista);
 
-        // Teste de posição inválida
         boolean resultadoInvalido = lista.adiciona(7, 99);
         System.out.println("Tentou adicionar em posição inválida (7): " + resultadoInvalido);
         System.out.println("Lista final: " + lista);
